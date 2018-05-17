@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../Photos/Logo%20(2).ico" />
+    <title> Pexel Ocean </title>
+</head>
+
+<body>
+    <!-- Home -->
+    <div class="container-fluid home">
+        <!-- Navbar-sm-up -->
+        <nav class="navbar hidden-xs navbar_custom" role="navigation">
+            <div class="col-md-3 col-xs-2 logo">
+                <a href="#"><img src="../Photos/Logo.png" alt="Pexel Ocean"></a>
+            </div>
+            <div class="col-md-6 col-xs-8 center_nav">
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Portfolio</a>
+            </div>
+            <div class="col-md-3 col-xs-2 contact">
+                <button class="btn btn_custom" id="btn_contact">Contact</button>
+            </div>
+        </nav>
+        <!-- Navbar xs -->
+        <nav class="navbar visible-xs-inline">
+            <div class="container">
+                <div class="col-xs-6 logo1">
+                    <a href="#"><img src="../Photos/Logo.png" alt="Pexel Ocean"></a>
+                </div>
+                <div class="col-xs-6 menu">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle" type="button" data-toggle="dropdown"><i class="fas fa-bars"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li id="btn_contact"><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 slogan">
+                    We craft <b>unique</b><br>web and mobile solutions
+                </div>
+                <div class="col-xs-12 see_our_works">
+                    <button class="btn btn_custom" id="btn_works">See our works</button>
+                </div>
+            </div>
+            <div class="container mobile_pic">
+                <img src="../Photos/Mobile.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div class="container">
+        <div class="row title">
+            <hr class="line">Services
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <div class="card">
+                    <div><img src="../Photos/Web%20development.png" alt="Web development"></div>
+                    <div>Web development</div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <div class="card">
+                    <div><img src="../Photos/UI%20UX%20design.png" alt="UI/UX design"></div>
+                    <div>UI / UX design</div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <div class="card">
+                    <div><img src="../Photos/Branding%20design.png" alt="Branding design"></div>
+                    <div>Branding design</div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="card">
+                    <div><img src="../Photos/Mobile%20development.png" alt="Mobile development"></div>
+                    <div>Mobile development</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our team -->
+    <div class="container">
+        <div class="row title">
+            <hr class="line">Our team
+        </div>
+        <div class="row about_team">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Mauris eget sem volutpat, finibus urna vitae, gravida nisi.
+        </div>
+        <div class="row member">
+            <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <div>
+                    <div><img src="../Photos/Member.png" alt="Member"></div>
+                    <div>John Doe</div>
+                    <div class="job">Digital designer</div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <div>
+                    <div><img src="../Photos/Member.png" alt="Member"></div>
+                    <div>John Doe</div>
+                    <div class="job">Digital designer</div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <div>
+                    <div><img src="../Photos/Member.png" alt="Member"></div>
+                    <div>John Doe</div>
+                    <div class="job">Digital designer</div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <div>
+                    <div><img src="../Photos/Member.png" alt="Member"></div>
+                    <div>John Doe</div>
+                    <div class="job1">Digital designer</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact us -->
+    <div class="container" id="contact_form">
+        <div class="row title">
+            <hr class="line">Contact us
+        </div>
+        <div class="row message">
+            <form action="mailto">
+                <div class="form-group col-xs-12 col-sm-6">
+                    <label for="full_name"></label>
+                    <input type="text" class="form-control" id="full_name" placeholder="Full Name">
+                </div>
+                <div class="form-group col-xs-12 col-sm-6">
+                    <label for="email"></label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group col-xs-12">
+                    <label for="message"></label>
+                    <input type="text" class="form-control" id="message" placeholder="Message">
+                </div>
+                <div class="send_message">
+                    <button class="btn btn_custom">Send a message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Our works -->
+    <div class="container" id="our_works">
+        <div class="row title">
+            <hr class="line">Our works
+        </div>
+        <div class="row about_team">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Mauris eget sem volutpat, finibus urna vitae, gravida nisi.
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 card_work">
+                <div class="hide_card col-xs-12">
+                    <div class="col-xs-12 text_works">
+                        <h5><b>Stripe</b> Dashboard</h5>Lorem ipsum dolor sit amet,<br>consectetur adipiscing <b>elit.</b>
+                    </div>
+                    <div class="col-xs-12 text_icon">
+                        <div class="col-xs-2"><img src="../Photos/Icon%201.png" alt="UI/UX design"></div>
+                        <div class="col-xs-4">UI/UX design
+                            <hr>
+                        </div>
+                        <div class="col-xs-2"><img src="../Photos/Icon%202.png" alt="Mobile development"></div>
+                        <div class="col-xs-4">Mobile dev
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 card_work">
+                <div class="hide_card col-xs-12">
+                    <div class="col-xs-12 text_works">
+                        <h5><b>Stripe</b> Dashboard</h5>Lorem ipsum dolor sit amet,<br>consectetur adipiscing <b>elit.</b>
+                    </div>
+                    <div class="col-xs-12 text_icon">
+                        <div class="col-xs-2"><img src="../Photos/Icon%201.png" alt="UI/UX design"></div>
+                        <div class="col-xs-4">UI/UX design
+                            <hr>
+                        </div>
+                        <div class="col-xs-2"><img src="../Photos/Icon%202.png" alt="Mobile development"></div>
+                        <div class="col-xs-4">Mobile dev
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 card_work">
+                <div class="hide_card col-xs-12">
+                    <div class="col-xs-12 text_works">
+                        <h5><b>Stripe</b> Dashboard</h5>Lorem ipsum dolor sit amet,<br>consectetur adipiscing <b>elit.</b>
+                    </div>
+                    <div class="col-xs-12 text_icon">
+                        <div class="col-xs-2"><img src="../Photos/Icon%201.png" alt="UI/UX design"></div>
+                        <div class="col-xs-4">UI/UX design
+                            <hr>
+                        </div>
+                        <div class="col-xs-2"><img src="../Photos/Icon%202.png" alt="Mobile development"></div>
+                        <div class="col-xs-4">Mobile dev
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 card_work">
+                <div class="hide_card col-xs-12">
+                    <div class="col-xs-12 text_works">
+                        <h5><b>Stripe</b> Dashboard</h5>Lorem ipsum dolor sit amet,<br>consectetur adipiscing <b>elit.</b>
+                    </div>
+                    <div class="col-xs-12 text_icon">
+                        <div class="col-xs-2"><img src="../Photos/Icon%201.png" alt="UI/UX design"></div>
+                        <div class="col-xs-4">UI/UX design
+                            <hr>
+                        </div>
+                        <div class="col-xs-2"><img src="../Photos/Icon%202.png" alt="Mobile development"></div>
+                        <div class="col-xs-4">Mobile dev
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 card_work">
+                <div class="hide_card col-xs-12">
+                    <div class="col-xs-12 text_works">
+                        <h5><b>Stripe</b> Dashboard</h5>Lorem ipsum dolor sit amet,<br>consectetur adipiscing <b>elit.</b>
+                    </div>
+                    <div class="col-xs-12 text_icon">
+                        <div class="col-xs-2"><img src="../Photos/Icon%201.png" alt="UI/UX design"></div>
+                        <div class="col-xs-4">UI/UX design
+                            <hr>
+                        </div>
+                        <div class="col-xs-2"><img src="../Photos/Icon%202.png" alt="Mobile development"></div>
+                        <div class="col-xs-4">Mobile dev
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 card_work">
+                <div class="hide_card col-xs-12">
+                    <div class="col-xs-12 text_works">
+                        <h5><b>Stripe</b> Dashboard</h5>Lorem ipsum dolor sit amet,<br>consectetur adipiscing <b>elit.</b>
+                    </div>
+                    <div class="col-xs-12 text_icon">
+                        <div class="col-xs-2"><img src="../Photos/Icon%201.png" alt="UI/UX design"></div>
+                        <div class="col-xs-4">UI/UX design
+                            <hr>
+                        </div>
+                        <div class="col-xs-2"><img src="../Photos/Icon%202.png" alt="Mobile development"></div>
+                        <div class="col-xs-4">Mobile dev
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Partners -->
+    <div class="container">
+        <div class="row title">
+            <hr class="line">Partners
+        </div>
+        <div class="row">
+            <div class="partners">
+                <i class="fab fa-cpanel"></i>
+                <i class="fab fa-digg"></i>
+                <i class="fab fa-node"></i>
+                <i class="fab fa-stripe"></i>
+                <i class="fab fa-vnv"></i>
+                <i class="fab fa-hooli"></i>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="col-xs-12 question">
+                Love our <b>works?</b>
+            </div>
+            <div class="col-xs-12 estimate">
+                <button class="btn btn_custom">Estimate project</button>
+            </div>
+            <div class="col-xs-12">
+                <hr class="bottom_line">
+            </div>
+            <div class="col-xs-12 col-sm-6 copy">
+                Copyright &copy; 2018 Pexel Ocean.
+            </div>
+            <div class="col-xs-12 col-sm-6 bottom_nav">
+                <div class="navbar-collapse collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../Jquery/jquery-3.3.1.min.js"></script>
+    <script src="../Bootstrap/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
